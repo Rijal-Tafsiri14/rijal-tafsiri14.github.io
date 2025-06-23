@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Interaktif</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Destinasi Wisata</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Erka Travel</h1>
+            <p>Erka Travel adalah perusahaan penyedia layanan perjalanan yang berdedikasi untuk menghadirkan pengalaman wisata yang nyaman, aman, dan tak terlupakan. Berdiri sejak 2020, kami telah melayani ribuan pelanggan dengan berbagai destinasi wisata domestik maupun internasional.
+
+Kami percaya bahwa setiap perjalanan bukan hanya tentang tempat yang dituju, tetapi juga tentang pengalaman, cerita, dan kenangan yang tercipta. Oleh karena itu, kami selalu mengutamakan pelayanan terbaik, rencana perjalanan yang fleksibel, serta harga yang kompetitif untuk setiap paket yang kami tawarkan.</p>
+            <a href="#services" class="btn">Destinasi Wisata</a>
+        </div>
+    </section>
+    
+    <section class="services" id="services">
+        <div class="section-title">
+            <h2>Destinasi Wisata</h2>
+            <p></p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class=""></i>
+                </div>
+                <h3>Bali</h3>
+                <p>Bali dikenal karena keindahan alamnya, budaya Hindu yang kental, serta keramahan masyarakatnya. Pulau ini menawarkan kombinasi sempurna antara wisata alam, budaya, spiritual, hingga hiburan modern.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class=""></i>
+                </div>
+                <h3>Lombok</h3>
+                <p>Terletak di sebelah timur Bali, Lombok menawarkan suasana yang lebih tenang namun tak kalah menakjubkan.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class=""></i>
+                </div>
+                <h3>Raja Ampat</h3>
+                <p>Raja Ampat memiliki lebih dari 1.500 pulau kecil, atol, dan pasir putih yang mengelilingi empat pulau utama: Waigeo, Batanta, Salawati, dan Misool.</p>
+            </div>
+                   </div>
+    </section>
+    
+
+    <section class="testimonials" id="testimonials">
+        <div class="section-title">
+            <h2>What Our Clients Say</h2>
+            <p>Trusted dan Sangat Terjangkau</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+        
+                <p>"Menjadikan Momen Healing Semakin Berwarna karena ide ide menarik dari pihak travel"</p>
+                <div class="testimonial-author">- Reza Nasution -</div>
+            </div>
+            <div class="testimonial">
+                
+                <p>"Untuk Paket harganya sangat sangat compatible dan mudah dijangkau"</p>
+                <div class="testimonial-author">- Michael Owen</div>
+            </div>
+            <div class="testimonial">
+                
+                <p>"Bali & Lombok Cuma 3jt all in sangat sangat memuaskan"</p>
+                <div class="testimonial-author">- Emily </div>
+            </div>
+            <div class="slider-controls">
+                <span class="slider-dot active" data-index="0"></span>
+                <span class="slider-dot" data-index="1"></span>
+                <span class="slider-dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Tentang Kami</h3>
+                <p>Travel Menjadi Menyenangkan</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Destinasi Wisata</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Bali</a></li>
+                    <li><a href="#">Lombok</a></li>
+                    <li><a href="#">Raja Ampat</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Kontak Kami</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> Tangerang, periuk</li>
+                    <li><i class="fas fa-phone"></i> 085156854818</li>
+                    <li><i class="fas fa-envelope"></i> ibnurijal15@gmail.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2020 Portfolio Design. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple testimonial slider
+        document.addEventListener('DOMContentLoaded', function() {
+            const dots = document.querySelectorAll('.slider-dot');
+            const testimonials = document.querySelectorAll('.testimonial');
+            
+            dots.forEach(dot => {
+                dot.addEventListener('click', function() {
+                    const index = this.getAttribute('data-index');
+                    
+                    // Remove active class from all
+                    testimonials.forEach(t => t.classList.remove('active'));
+                    dots.forEach(d => d.classList.remove('active'));
+                    
+                    // Add active class to selected
+                    testimonials[index].classList.add('active');
+                    this.classList.add('active');
+                });
+            });
+            
+            // Header scroll effect
+            window.addEventListener('scroll', function() {
+                const header = document.getElementById('header');
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
